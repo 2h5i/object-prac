@@ -10,8 +10,8 @@ public class Beverage {
         this.amount = 10;
     }
 
-    public BeverageType getName() {
-        return name;
+    public String getName() {
+        return this.name.getName();
     }
 
     public int getAmount() {

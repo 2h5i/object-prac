@@ -1,4 +1,3 @@
-import cafe.Beverage;
 import cafe.BeverageType;
 import cafe.Cafe;
 import cafe.Customer;
@@ -20,7 +19,7 @@ public class Application {
         customer.drinkBeverage();
         customer.drinkBeverage();
 
-        System.out.println("음료 : " + customer.getBeverage().getName().getName() + " / " + "남은 양 : " + customer.leftBeverageAmount());
+        System.out.println("음료 : " + customer.getBeverage().getName() + " / " + "남은 양 : " + customer.leftBeverageAmount());
         System.out.println("카페의 매출 : " + cafe.getSalesMoney());
 
     }
